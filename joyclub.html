@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="images/favicon-32x32.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Joyaid</title>
+    <!-- MDB icon -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+    <style>
+        .navbar:not(.top-nav-collapse) {
+            background-color: #063006;
+        }
+
+        .top-nav-collapse {
+            background-color: #022007;
+        }
+
+        @media (max-width: 768px) {
+            .navbar:not(.top-nav-collapse) {
+                background-color: #063006;
+            }
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background-color: #042204;
+            }
+        }
+
+        .border-top {
+            border-top-width: 2px !important;
+        }
+
+
+
+        .gallery {
+            -webkit-column-count: 3;
+            -moz-column-count: 3;
+            column-count: 3;
+            -webkit-column-width: 33%;
+            -moz-column-width: 33%;
+            column-width: 33%;
+        }
+
+        .gallery .pics {
+            -webkit-transition: all 350ms ease;
+            transition: all 350ms ease;
+        }
+
+        .gallery .animation {
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1);
+        }
+
+        @media (max-width: 450px) {
+            .gallery {
+                -webkit-column-count: 1;
+                -moz-column-count: 1;
+                column-count: 1;
+                -webkit-column-width: 100%;
+                -moz-column-width: 100%;
+                column-width: 100%;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .btn.filter {
+                padding-left: 1.1rem;
+                padding-right: 1.1rem;
+                font-size: 3px;
+            }
+        }
+    </style>
+
+</head>
+
+
+
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+
+        <div class="container">
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                <!-- Links -->
+                <ul class="navbar-nav mr-auto smooth-scroll">
+                    <li class="nav-item smooth-scroll list-unstyled">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                </ul>
+                <!-- Links -->
+
+            </div>
+            <!-- Collapsible content -->
+
+        </div>
+
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--blog section startrs here-->
+    <!--Section: Contact v.2-->
+    <section class="mb-4">
+        <div class="container">
+            <div class="modal-header text-center">
+                <h4 class="modal-title w-100 font-weight-bold">Take Action Now</h4>
+                </button>
+            </div>
+            <div class="modal-body mx-3">
+                <div class="md-form mb-5">
+                    <i class="fas fa-user prefix grey-text"></i>
+                    <input type="text" id="form34" class="form-control validate">
+                    <label data-error="wrong" data-success="right" for="form34">Your name</label>
+                </div>
+
+                <div class="md-form mb-5">
+                    <i class="fas fa-envelope prefix grey-text"></i>
+                    <input type="email" id="form29" class="form-control validate">
+                    <label data-error="wrong" data-success="right" for="form29">Your email</label>
+                </div>
+
+                <div class="md-form mb-5">
+                    <i class="fas fa-tag prefix grey-text"></i>
+                    <input type="text" id="form32" class="form-control validate">
+                    <label data-error="wrong" data-success="right" for="form32">Your Expectations</label>
+                </div>
+
+                <div class="md-form">
+                    <i class="fas fa-pencil prefix grey-text"></i>
+                    <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+                    <label data-error="wrong" data-success="right" for="form8">Your Contributions</label>
+                </div>
+                <!-- Central Modal Medium Success -->
+                <div class="modal fade" id="centralModalSuccess" tabindex="-1" role="dialog"
+                    aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-notify modal-success" role="document">
+                        <!--Content-->
+                        <div class="modal-content">
+                            <!--Header-->
+                            <div class="modal-header">
+                                <h3 class="heading lead font-weight-bold"><center>Joy Aid Board</center></h3>
+
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true" class="white-text">&times;</span>
+                                </button>
+                            </div>
+
+                            <!--Body-->
+                            <div class="modal-body">
+                                <div class="text-center">
+                                    <i class="fa fa-thumbs-up fa-4x mb-3 animated rotateIn"></i>
+                                    <p>"People like you are an inspiration to all. Thank you for this generous act of contibuting to making the world a better place."</p>
+                                    <p>You will receive an email shortly</p>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <p>Click here to join our whatsapp platform</p>
+                                <a type="button" class="btn btn-success">Join now</a>
+                              </div>
+                        </div>
+                       
+                        <!--/.Content-->
+                    </div>
+                </div>
+                <!-- Central Modal Medium Success-->
+
+                <!-- Button trigger modal -->
+                <div class="text-center"> <a href="" class="btn btn-unique btn-rounded" data-toggle="modal" data-target="#centralModalSuccess">Send</a>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <!--Section: Contact v.2-->
+    <!--bloog dection ends here-->
+
+
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript">
+        $(function () {
+            var selectedClass = "";
+            $(".filter").click(function () {
+                selectedClass = $(this).attr("data-rel");
+                $("#gallery").fadeTo(100, 0.1);
+                $("#gallery div").not("." + selectedClass).fadeOut().removeClass('animation');
+                setTimeout(function () {
+                    $("." + selectedClass).fadeIn().addClass('animation');
+                    $("#gallery").fadeTo(300, 1);
+                }, 300);
+            });
+        });
+
+        // MDB Lightbox Init
+        $(function () {
+            $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+        });
+
+    </script>
+
+</body>
+
+</html>
